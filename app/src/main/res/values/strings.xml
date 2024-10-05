@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TopicosProyect</string>
+    <string name="ingrese_n_mero_de_cr_ditos">Ingrese número de créditos</string>
+    <string name="cr_ditos">Créditos</string>
+    <string name="calcular">Calcular</string>
+    <string name="horas_practicas">Horas Practicas</string>
+    <string name="horas_teoricas">Horas Teoricas</string>
+    <string name="logo">logo</string>
+    <string name="banner">banner</string>
+    <string name="materia">Materia</string>
+    <string name="ingrese_el_nombre_de_la_materia">Ingrese el nombre de la materia</string>
+    <string name="regresar">Regresar</string>
+    <string name="trabajo_independiente">Trabajo Independiente:</string>
+    <string name="horas_te_ricas">Horas Teóricas:</string>
+    <string name="horas_pr_cticas">Horas Prácticas:</string>
+</resources>
