@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
         btnCalcular.setOnClickListener {
             if (etMateria.text.toString() != "") {
                 if (hp > 0 && ht > 0){
-                   horasPresenciales = (ht - hp) * 16
+                   horasPresenciales = (ht + hp) * 16
                     val intCredito = etCreditos.text.toString()
                     if (intCredito.isNotEmpty()) {
                         if (intCredito.toInt() > 0) {

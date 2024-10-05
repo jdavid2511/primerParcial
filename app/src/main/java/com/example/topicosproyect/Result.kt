@@ -49,10 +49,10 @@ class Result : AppCompatActivity() {
     }
 
     private fun recibirDatos() {
-        materia = intent.getStringExtra("materia").toString()
-        horasPracticas = intent.getStringExtra("hp").toString()
-        horasTeoricas = intent.getStringExtra("ht").toString()
-        tiempoIndependiente = intent.getStringExtra("ti").toString()
+        materia = intent.extras?.getString("materia").toString().orEmpty()
+        horasPracticas = intent.extras?.getInt("hp").toString().orEmpty()
+        horasTeoricas = intent.extras?.getInt("ht").toString().orEmpty()
+        tiempoIndependiente = intent.extras?.getInt("ti").toString().orEmpty()
     }
 
     private fun setDatos() {
